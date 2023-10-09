@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* All Command CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* Header Part Start */
+#header_part {
+    background-color: #1C1E53;
+}
+.logo_menu{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.logo{
+    padding-top: 22px;
+    width: 15%;
+}
+.menu {
+   text-align: right;
+    width: 60%;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #bbbbcb;
+    font-size: 16px;
+    font-weight: 500;
+     font-family: 'Poppins', sans-serif;
+     transition: .4s;
+     padding: 0 15px;
+     line-height: 80px;
+     
+}
+menu ul li a:hover{
+    color:#fff;
+}
+.btn a{
+   padding: 16px 48px;
+   font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    color: #fff
+   
+    
+}
+.btn{
+    width: 25%;
+    margin-top: 30px;
+  text-align: right;
+}
+/* Header Part End  */
+
+/* Banner Part Start */
+
+#banner_part{
+    background: #1C1E53;
+    padding-top: 160px;
+    padding-bottom: 125px;
+}
+.banner_content{
+    display: flex;
+}
+.banner_left{
+    width: 50%;
+}
+.banner_right{
+    width: 50%;
+}
+.banner_left h1{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 24px;
+}
+ .banner_left p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-right: 51px;
+    margin-bottom: 48px;
+ }
+ .banner_left a{
+    padding: 16px 56px;
+    align-items: center;
+    border-radius: 41px;
+    background: #FCD980;
+    color: #1b1c2b;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ .banner_left button{
+    background: transparent;
+    border: none;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+ }
+ .banner_content button{
+    vertical-align: middle;
+    margin-left: 10px;
+ }
+
+
+
+
+/* Banner Part End  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header Part Start */
+/* Header Part End  */
+/* Header Part Start */
+/* Header Part End  */
+
+/* All command CSS End */
